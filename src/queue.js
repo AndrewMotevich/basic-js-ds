@@ -14,8 +14,8 @@ const { NotImplementedError } = require('../extensions/index.js');
  * queue.getUnderlyingList() // returns { value: 3, next: null }
  */
  class ListNode {
-  constructor(x) {
-      this.value = x;
+  constructor(some) {
+      this.value = some;
       this.next = null;
   }
 }
